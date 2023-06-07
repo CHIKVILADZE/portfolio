@@ -1,8 +1,16 @@
 import nodemailer from 'nodemailer';
 require('dotenv').config();
+import initMiddleware from '../../utils/initMiddleware';
 
-// eslint-disable-next-line import/no-anonymous-default-export
-export default async (req, res) => {
+const cors = initMiddleware(
+  Cors({
+    methods: ['POST'], // Adjust the allowed methods according to your needs
+  })
+);
+
+export default async function handler(req, res) {
+  await cors(req, res); // Apply CORS to your API route
+
   const { name, phone, email, subject, message } = req.body;
 
   const transporter = nodemailer.createTransport({
@@ -19,10 +27,11 @@ export default async (req, res) => {
     const emailRes = await transporter.sendMail({
       from: email,
       to: 'chikviladze555@gmail.com',
-      subject: `Contact from submission ${name}`,
-      html: `<p>You have a new contact for submission</p><br>
+      subject: `Contact form submission from ${name}`,
+      html: `<p>You have a new contact form submission</p><br>
         <p><strong>Name: </strong> ${name}</p><br>
-        <p><strong>Email: </strong> ${phone}</p><br>
+        <p><strong>Email: </strong> ${email}</p><br>
+        <p><strong>Phone: </strong> ${phone}</p><br>
         <p><strong>Subject: </strong> ${subject}</p><br>
         <p><strong>Message: </strong> ${message}</p><br>`,
     });
@@ -32,4 +41,4 @@ export default async (req, res) => {
   }
 
   res.status(200).json(req.body);
-};
+}
