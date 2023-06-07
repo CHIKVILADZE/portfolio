@@ -59,7 +59,7 @@ export default function NavBar() {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/" scroll={false}>
+        <Link href="/">
           <Image src="/assets/logo3.png" alt="/" width="150" height="120" />
         </Link>
 
