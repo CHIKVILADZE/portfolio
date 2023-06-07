@@ -14,7 +14,8 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/./assets/skills/html-5.png"
+                  src="/assets/skills/html-5.png
+                  "
                   width="65"
                   height="65"
                   alt="/"
@@ -29,7 +30,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/css-3.png"
+                  src="/assets/skills/css-3.png"
                   width="65"
                   height="65"
                   alt="/"
@@ -44,7 +45,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/js.png"
+                  src="/assets/skills/js.png"
                   width="65"
                   height="65"
                   alt="/"
@@ -59,7 +60,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/typescript.png"
+                  src="/assets/skills/typescript.png"
                   width="65"
                   height="65"
                   alt="/"
@@ -74,7 +75,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/react.png"
+                  src="/assets/skills/react.png"
                   width="65"
                   height="65"
                   alt="/"
@@ -89,7 +90,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/next.png"
+                  src="/assets/skills/next.png"
                   width="120"
                   height="65"
                   alt="/"
@@ -104,7 +105,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/nodejs.png"
+                  src="/assets/skills/nodejs.png"
                   width="65"
                   height="65"
                   alt="/"
@@ -119,7 +120,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/mongodb.png"
+                  src="/assets/skills/mongodb.png"
                   width="65"
                   height="65"
                   alt="/"
@@ -134,7 +135,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/mysql.png"
+                  src="/assets/skills/mysql.png"
                   width="65"
                   height="65"
                   alt="/"
@@ -149,7 +150,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/tailwind.png"
+                  src="/assets/skills/tailwind.png"
                   width="100"
                   height="65"
                   alt="/"
@@ -164,7 +165,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/styled-components.png"
+                  src="/assets/skills/styled-components.png"
                   width="65"
                   height="65"
                   alt="/"
