@@ -22,7 +22,7 @@ const Contact = () => {
   async function onSubmitForm(values) {
     let config = {
       method: 'post',
-      url: `${process.env.NEXT_PUBLIC_API_URL}/api/contact`,
+      url: `/api/contact`,
       headers: {
         'Content-Type': 'application/json',
       },
@@ -47,7 +47,6 @@ const Contact = () => {
         console.log('Success');
         reset(); // Reset the form
         notify();
-        console.log('After if statement');
       }
     } catch (err) {
       console.error(err);
