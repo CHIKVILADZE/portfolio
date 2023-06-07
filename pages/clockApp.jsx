@@ -27,7 +27,7 @@ export default function clockApp() {
           <p className="">Project</p>
           <h2>Overview</h2>
           <p>
-            The clock-app repository is a project focused on building a clock
+            The mmclock-app repository is a project focused on building a clock
             application. It contains code for displaying and managing
             time-related functionalities. This involve features such as
             displaying the current time, setting alarms, timers, or even
