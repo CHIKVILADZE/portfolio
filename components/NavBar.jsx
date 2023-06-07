@@ -60,12 +60,7 @@ export default function NavBar() {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/" scroll={false}>
-          <Image
-            src="/../public/assets/logo3.png"
-            alt="/"
-            width="150"
-            height="120"
-          />
+          <Image src="/assets/logo3.png" alt="/" width="150" height="120" />
         </Link>
 
         <div>
@@ -118,12 +113,7 @@ export default function NavBar() {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src="/../public/assets/logo3.png"
-                alt="/"
-                width="100"
-                height="70"
-              />
+              <Image src="/assets/logo3.png" alt="/" width="100" height="70" />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer"
