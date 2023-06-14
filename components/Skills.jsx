@@ -149,6 +149,21 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
+                  src="/assets/skills/wordpress.png"
+                  width="65"
+                  height="65"
+                  alt="/"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Wordpress</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
                   src="/assets/skills/tailwind.png"
                   width="100"
                   height="65"

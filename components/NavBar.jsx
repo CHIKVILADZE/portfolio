@@ -24,7 +24,7 @@ export default function NavBar() {
       router.asPath === '/entertainmentApp' ||
       router.asPath === '/chamazona' ||
       router.asPath === '/planetsApp' ||
-      router.asPath === '/clockApp'
+      router.asPath === '/greenroom'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');

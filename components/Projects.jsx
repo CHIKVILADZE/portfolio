@@ -4,7 +4,7 @@ import React from 'react';
 import entertainment from '../public/assets/projects/entertainment.jpg';
 import chamazonaImg from '../public/assets/projects/chamazonaImg.png';
 import planets from '../public/assets/projects/planets.jpg';
-import clock from '../public/assets/projects/clock.jpg';
+import greenroom from '../public/assets/projects/greenroom.png';
 import Link from 'next/link';
 import ProjectItem from './ProjectItem';
 
@@ -17,6 +17,12 @@ export default function Projects() {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Green Room"
+            backgroundImg={greenroom}
+            projectUrl="/greenroom"
+            technologies="Wordress"
+          />
           <ProjectItem
             title="Chamazona"
             backgroundImg={chamazonaImg}
@@ -33,12 +39,6 @@ export default function Projects() {
             title="Planets App"
             backgroundImg={planets}
             projectUrl="/planetsApp"
-            technologies="React Js"
-          />
-          <ProjectItem
-            title="Clock App"
-            backgroundImg={clock}
-            projectUrl="/clockApp"
             technologies="React Js"
           />
         </div>
