@@ -23,7 +23,7 @@ export default function NavBar() {
     if (
       router.asPath === '/entertainmentApp' ||
       router.asPath === '/chamazona' ||
-      router.asPath === '/planetsApp' ||
+      router.asPath === '/cms_blog' ||
       router.asPath === '/greenroom'
     ) {
       setNavBg('transparent');

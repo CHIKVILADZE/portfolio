@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import planets from '../public/assets/projects/planets.jpg';
+import graphcms from '../public/assets/projects/graphcms.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,12 +13,12 @@ export default function planetsApp() {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={planets}
+          src={graphcms}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2>Planets App</h2>
-          <h3>React JS </h3>
+          <h2>CMS Blog</h2>
+          <h3>Next JS - GraphQl</h3>
         </div>
       </div>
 
@@ -27,23 +27,22 @@ export default function planetsApp() {
           <p className="">Project</p>
           <h2>Overview</h2>
           <p>
-            This repository is a project that likely involves an application
-            related to planets. While I cannot directly access the repository,
-            it may contain code for fetching and displaying information about
-            planets, such as their names, characteristics, and images. The app
-            might provide a user interface for exploring and learning about
-            different planets in our solar system.
+            This project created by NextJs and GraphQl. There is many libraries
+            also. This is my first steps in GraphQl. You can add posts, add
+            comments, here is information about some of programming languages,
+            like Javascript, NodeJs, React and Next. It was very intresting
+            challage for me.
           </p>
 
           <Link
-            href="https://chikviladze.github.io/planets-app/"
+            href="https://next-graphql-rho.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </Link>
           <Link
-            href="https://github.com/CHIKVILADZE/planets-app.git"
+            href="https://github.com/CHIKVILADZE/next-graphql.git"
             target="_blank"
             rel="noreferrer"
           >
@@ -56,15 +55,15 @@ export default function planetsApp() {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                React
+                Next.Js
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Tyescript
+                GraphQl
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                React-router
+                Tailwind
               </p>
             </div>
           </div>
