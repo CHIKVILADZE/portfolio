@@ -27,7 +27,7 @@ export default function Projects() {
             title="Green Room"
             backgroundImg={greenroom}
             projectUrl="/greenroom"
-            technologies="Wordress"
+            technologies="Wordpress"
           />
           <ProjectItem
             title="Chamazona"
