@@ -15,13 +15,13 @@ export default function Main() {
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#5651e5]">Giorgi</span>
           </h1>
-          <h1 className="py-2 text-gray-700">A Front-End Web Developer</h1>
+          <h1 className="py-2 text-gray-700">A Full Stack Web Developer</h1>
           <p className="py-4 text-gray-600  max-w-[70%] m-auto">
-            I am front-end developer with no experience but I have an unwavering
-            motivation to succeed. I want to learn and contribute to creating
-            something special. I am Ready to embrace challenges and grow
-            alongside your team. Let&apos;s build something extraordinary
-            together.
+            I am a Junior Full Stack Web Developer with 1.5 years of hands-on
+            experience and an insatiable hunger for professional growth. I want
+            to continue my learning journey and contribute to something special.
+            I am well prepared to take on challenges and grow with your dynamic
+            team. Let&apos;s create something truly extraordinary together
           </p>
           <div className="flex -tems-center justify-between max-w-[200px] m-auto py-4">
             <Link

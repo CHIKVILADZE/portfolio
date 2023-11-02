@@ -17,14 +17,13 @@ export default function About() {
             succeed in my career. Every day, I strive to enhance my skills and
             knowledge, relentlessly pursuing personal and professional growth.
             Despite the challenges that may come my way, I am resolute in my
-            commitment to progress and will not waver from my path. While I may
-            currently lack professional experience, I am fueled by a clear goal
-            and an unwavering determination to achieve it. I am seeking an
-            environment that will enable me to develop both personally and
-            professionally. I yearn to contribute to something meaningful, to be
-            a part of creating something important. By hiring me, you will not
-            only find a dedicated individual, but also someone who will prove to
-            be the right choice for your company.
+            commitment to progress and will not waver from my path.I am fueled
+            by a clear goal and an unwavering determination to achieve it. I am
+            seeking an environment that will enable me to develop both
+            personally and professionally. I yearn to contribute to something
+            meaningful, to be a part of creating something important. By hiring
+            me, you will not only find a dedicated individual, but also someone
+            who will prove to be the right choice for your company.
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-500 rounded-xl flex-items-center justify-center p-2.5 hover:scale-105 ease-in duration-300 mt-[35px]">
